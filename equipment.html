@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Fondamento&family=Kdam+Thmor+Pro&display=swap"
+        rel="stylesheet">
+    <title>equipment</title>
+</head>
+
+<body>
+    <div id="gotohome">
+        <a href="index.html"><button>GoToHome</button></a>
+    </div>
+    <div id="navbar_phone">
+        <div class="menu_sign">
+            <span class="material-symbols-outlined" onclick="navopen()">
+                menu
+            </span>
+        </div>
+        <div>
+            <ul class="options">
+                <li><a href="#barbels">Barbells</a></li>
+                <li><a href="#boxing">Boxing</a></li>
+                <li><a href="#treadmill">Treadmill</a></li>
+                <li><a href="#plates">Plates</a></li>
+                <li><a href="index.html">GoToHome</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="sidenav">
+        <div class="sameline">
+            <div class="material-symbols-outlined diff" id="1" onclick="trigger1()">
+                circle
+            </div>
+            <div id="equip" class="block"><a href="#barbels"><button>Barbells</button></a></div>
+        </div>
+        <div class="sameline">
+            <div class="material-symbols-outlined diff" id="2" onclick="trigger2()">
+                circle
+            </div>
+            <div id="acc" class="block"><a href="#boxing"><button>Boxing</button></a></div>
+        </div>
+        <div class="sameline">
+            <div class="material-symbols-outlined diff" id="3" onclick="trigger3()">
+                circle
+            </div>
+            <div id="about" class="block"><a href="#treadmill"><button>Treadmill</button></a></div>
+        </div>
+        <div class="sameline">
+            <div class="material-symbols-outlined diff" id="4" onclick="trigger4()">
+                circle
+            </div>
+            <div id="cont" class="block"><a href="#plates"><button>Plates</button></a></div>
+        </div>
+    </div>
+    <div id="barbels">
+        <p class="heading center">BARBELS</p>
+        <div class="main-box">
+            <div class="card cardback">
+                <div class="product">
+                    <img src="images/barbells for cards.jpg" alt="">
+                </div>
+                <p class="center h-secondary" style="margin-bottom: 5%;">Barbels
+                </p>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem nobis optio
+                    consequuntur quam dolores perferendis eius saepe porro in harum!</p>
+                <button class="btn" onclick="show_modal1()">View
+                </button>
+            </div>
+            <div class="card cardback">
+                <div class="product">
+                    <img src="images/barbells for cards.jpg" alt="">
+                </div>
+                <p class="center h-secondary" style="margin-bottom: 5%;">Barbels
+
+                </p>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem nobis optio
+                    consequuntur quam dolores perferendis eius saepe porro in harum!</p>
+                <button class="btn" onclick="show_modal2()">View
+                </button>
+            </div>
+            <div class="card cardback">
+                <div class="product">
+                    <img src="images/barbells for cards.jpg" alt="">
+                </div>
+                <p class="center h-secondary" style="margin-bottom: 5%;">Barbels
+
+                </p>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem nobis optio
+                    consequuntur quam dolores perferendis eius saepe porro in harum!</p>
+                <button class="btn" onclick="show_modal3()">View
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="boxing">
+        <p class="heading center">Boxing</p>
+        <div class="main-box">
+            <div class="card cardback">
+                <div class="product">
+                    <img src="images/gloves for cards.jpeg" alt="">
+                </div>
+                <p class="center h-secondary" style="margin-bottom: 5%;">Boxing
+                </p>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem nobis optio
+                    consequuntur quam dolores perferendis eius saepe porro in harum!</p>
+                <button class="btn" onclick="show_modal4()">View
+                </button>
+            </div>
+            <div class="card cardback">
+                <div class="product">
+                    <img src="images/gloves for cards.jpeg" alt="">
+                </div>
+                <p class="center h-secondary" style="margin-bottom: 5%;">Boxing
+
+                </p>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem nobis optio
+                    consequuntur quam dolores perferendis eius saepe porro in harum!</p>
+                <button class="btn" onclick="show_modal5()">View
+                </button>
+            </div>
+            <div class="card cardback">
+                <div class="product">
+                    <img src="images/gloves for cards.jpeg" alt="">
+                </div>
+                <p class="center h-secondary" style="margin-bottom: 5%;">Boxing
+
+                </p>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem nobis optio
+                    consequuntur quam dolores perferendis eius saepe porro in harum!</p>
+                <button class="btn" onclick="show_modal6()">View
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="treadmill">
+        <p class="heading center">Treadmill</p>
+        <div class="main-box">
+            <div class="card cardback">
+                <div class="product">
+                    <img src="images/treadmill_for_cards.jpg" alt="">
+                </div>
+                <p class="center h-secondary" style="margin-bottom: 5%;">Treadmill
+                </p>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem nobis
+                    optio
+                    consequuntur quam dolores perferendis eius saepe porro in harum!</p>
+                <button class="btn" onclick="show_modal7()">View
+                </button>
+            </div>
+            <div class="card cardback">
+                <div class="product">
+                    <img src="images/treadmill_for_cards.jpg" alt="">
+                </div>
+                <p class="center h-secondary" style="margin-bottom: 5%;">Treadmill
+
+                </p>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem nobis
+                    optio
+                    consequuntur quam dolores perferendis eius saepe porro in harum!</p>
+                <button class="btn" onclick="show_modal8()">View
+                </button>
+            </div>
+            <div class="card cardback">
+                <div class="product">
+                    <img src="images/treadmill_for_cards.jpg" alt="">
+                </div>
+                <p class="center h-secondary" style="margin-bottom: 5%;">Treadmill
+
+                </p>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem nobis
+                    optio
+                    consequuntur quam dolores perferendis eius saepe porro in harum!</p>
+                <button class="btn" onclick="show_modal9()">View
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="plates">
+        <p class="heading center">Plates</p>
+        <div class="main-box">
+            <div class="card cardback">
+                <div class="product">
+                    <img src="images/plates_for_cards.jpg" alt="">
+                </div>
+                <p class="center h-secondary" style="margin-bottom: 5%;">Plates
+                </p>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem nobis
+                    optio
+                    consequuntur quam dolores perferendis eius saepe porro in harum!</p>
+                <button class="btn" onclick="show_modal10()">View
+                </button>
+            </div>
+            <div class="card cardback">
+                <div class="product">
+                    <img src="images/plates_for_cards.jpg" alt="">
+                </div>
+                <p class="center h-secondary" style="margin-bottom: 5%;">Plates
+
+                </p>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem nobis
+                    optio
+                    consequuntur quam dolores perferendis eius saepe porro in harum!</p>
+                <button class="btn" onclick="show_modal11()">View
+                </button>
+            </div>
+            <div class="card cardback">
+                <div class="product">
+                    <img src="images/plates_for_cards.jpg" alt="">
+                </div>
+                <p class="center h-secondary" style="margin-bottom: 5%;">Plates
+
+                </p>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem nobis
+                    optio
+                    consequuntur quam dolores perferendis eius saepe porro in harum!</p>
+                <button class="btn" onclick="show_modal12()">View
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Modals -->
+    <div class="modal1">
+        <div class="modal-content">
+            <div class="properties">
+                <div class="photo">
+                    <img src="images/barbells for cards.jpg" alt="">
+                </div>
+                <hr>
+                <p class="modal-text" style="margin: 10px;">Official Flexnest
+                    Flex Barbell | Adjustable Barbell (Upto 20kg or 38kg) for Men & Women for Fitness and Home
+                    Workout | Including 3 Pairs of Multi-Grip Rubber Weight Plates</p>
+                    <hr>
+                <p class=" modal-text" style="margin: 10px;">Description : Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Maxime placeat quidem molestiae sequi eum odit voluptatem dolor cumque animi in,
+                    molestias fugit accusantium amet sapiente quis quos accusamus atque impedit.</p>
+                    <hr>
+                <div style="margin:10px;">
+                    <p class="modal-text">Price : 300 $
+                    </p>
+                    <hr>
+                    <p class="modal-text">Rating : &#9733;&#9733;&#9733;&#9733;</p>
+                </div>
+                <hr>
+                <div class="modalbtn">
+                    <button>Add to Cart</button>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal2">
+        <div class="modal-content">
+            <div class="properties">
+                <div class="photo">
+                    <img src="images/barbells for cards.jpg" alt="">
+                </div>
+                <hr>
+                <p class="modal-text" style="margin: 10px;">Official Flexnest
+                    Flex Barbell | Adjustable Barbell (Upto 20kg or 38kg) for Men & Women for Fitness and Home
+                    Workout | Including 3 Pairs of Multi-Grip Rubber Weight Plates</p>
+                    <hr>
+                <p class=" modal-text" style=" margin: 10px;">Description : Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Maxime placeat quidem molestiae sequi eum odit voluptatem dolor cumque animi in,
+                    molestias fugit accusantium amet sapiente quis quos accusamus atque impedit.</p>
+                    <hr>
+                <div style="margin:10px;">
+                    <p class="modal-text">Price : 600 $
+                    </p>
+                    <hr>
+                    <p class="modal-text">Rating :&#9733;&#9733;&#9733;</p>
+                </div>
+                <hr>
+                <div class="modalbtn">
+                    <button>Add to Cart</button>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal3">
+        <div class="modal-content">
+            <div class="properties">
+                <div class="photo">
+                    <img src="images/barbells for cards.jpg" alt="">
+                </div>
+                <hr>
+                <p class="modal-text" style="margin: 10px;">Official Flexnest
+                    Flex Barbell | Adjustable Barbell (Upto 20kg or 38kg) for Men & Women for Fitness and Home
+                    Workout | Including 3 Pairs of Multi-Grip Rubber Weight Plates</p>
+                    <hr>
+                <p class=" modal-text" style="margin: 10px;">Description : Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Maxime placeat quidem molestiae sequi eum odit voluptatem dolor cumque animi in,
+                    molestias fugit accusantium amet sapiente quis quos accusamus atque impedit.</p>
+                    <hr>
+                <div style="margin:10px;">
+                    <p class="modal-text">Price : 900 $
+                    </p>
+                    <hr>
+                    <p class="modal-text">Rating : &#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                </div>
+                <hr>
+                <div class="modalbtn">
+                    <button>Add to Cart</button>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal4">
+        <div class="modal-content">
+            <div class="properties">
+                <div class="photo">
+                    <img src="images/gloves for cards.jpeg" alt="">
+                </div>
+                <hr>
+                <p class="modal-text" style="margin: 10px;">Tuffstuff Wall Mount,Boxing Stand,Home Garage
+                    Workout Black,Fitness equipments for Men Boxing Stand (Steel, Black)
+                </p>
+                <hr>
+                <p class=" modal-text" style="margin: 10px;">Description : Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Maxime placeat quidem molestiae sequi eum odit voluptatem dolor cumque animi in,
+                    molestias fugit accusantium amet sapiente quis quos accusamus atque impedit.</p>
+                    <hr>
+                <div style="margin:10px;">
+                    <p class="modal-text">Price :749 $
+                    </p>
+                    <hr>
+                    <p class="modal-text">Rating : &#9733;&#9733;&#9733;</p>
+                </div>
+                <hr>
+                <div class="modalbtn">
+                    <button>Add to Cart</button>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal5">
+        <div class="modal-content">
+            <div class="properties">
+                <div class="photo">
+                    <img src="images/gloves for cards.jpeg" alt="">
+                </div>
+                <hr>
+                <p class="modal-text" style="color: black;margin: 10px;">Tuffstuff Wall Mount,Boxing Stand,Home Garage
+                    Workout Black,Fitness equipments for Men Boxing Stand (Steel, Black)</p>
+                    <hr>
+                <p class=" modal-text" style="color: black;margin: 10px;">Description : Lorem ipsum dolor, sit amet
+                    consectetur adipisicing elit. Maxime placeat quidem molestiae sequi eum odit voluptatem dolor cumque
+                    animi in, molestias fugit accusantium amet sapiente quis quos accusamus atque impedit.</p>
+                    <hr>
+                <div style="margin:10px;">
+                    <p class="modal-text">Price : 947 $
+                    </p>
+                    <hr>
+                    <p class="modal-text">Rating : &#9733;&#9733;</p>
+                </div>
+                <hr>
+                <div class="modalbtn">
+                    <button>Add to Cart</button>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal6">
+        <div class="modal-content">
+            <div class="properties">
+                <div class="photo">
+                    <img src="images/gloves for cards.jpeg" alt="">
+                </div>
+                <hr>
+                <p class="modal-text" style="margin: 10px;">Tuffstuff Wall Mount,Boxing Stand,Home Garage
+                    Workout Black,Fitness equipments for Men Boxing Stand (Steel, Black)</p>
+                    <hr>
+                <p class=" modal-text" style="margin: 10px;">Description : Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Maxime placeat quidem molestiae sequi eum odit voluptatem dolor cumque animi in,
+                    molestias fugit accusantium amet sapiente quis quos accusamus atque impedit.</p>
+                    <hr>
+                <div style="margin:10px;">
+                    <p class="modal-text">Price :826 $
+                    </p>
+                    <hr>
+                    <p class="modal-text">Rating : &#9733;&#9733;&#9733;&#9733;</p>
+                </div>
+                <hr>
+                <div class="modalbtn">
+                    <button>Add to Cart</button>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal7">
+        <div class="modal-content">
+            <div class="properties">
+                <div class="photo">
+                    <img src="images/treadmill_for_cards.jpg" alt="">
+                </div>
+                <hr>
+                <p class="modal-text" style="color: black;margin: 10px;">Powermax Fitness TDA-230M (2.0 HP), Semi-Auto
+                    Lubrication, Motorized Treadmill with Massager, Dumbbells, Sit-up & Twister Treadmill</p>
+                    <hr>
+                <p class=" modal-text" style="color: black;">Description : Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Maxime placeat quidem molestiae sequi eum odit voluptatem dolor cumque animi in,
+                    molestias fugit accusantium amet sapiente quis quos accusamus atque impedit.</p>
+                    <hr>
+                <div style="margin:10px;">
+                    <p class="modal-text">Price : 927 $
+                    </p>
+                    <hr>
+                    <p class="modal-text">Rating : &#9733;&#9733;&#9733;</p>
+                </div>
+                <hr>
+                <div class="modalbtn">
+                    <button>Add to Cart</button>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal8">
+        <div class="modal-content">
+            <div class="properties">
+                <div class="photo">
+                    <img src="images/treadmill_for_cards.jpg" alt="">
+                </div>
+                <hr>
+                <p class="modal-text" style="margin: 10px;">Powermax Fitness TDA-230M (2.0 HP), Semi-Auto
+                    Lubrication, Motorized Treadmill with Massager, Dumbbells, Sit-up & Twister Treadmill</p>
+                    <hr>
+                <p class=" modal-text" style="margin: 10px;">Description : Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Maxime placeat quidem molestiae sequi eum odit voluptatem dolor cumque animi in,
+                    molestias fugit accusantium amet sapiente quis quos accusamus atque impedit.</p>
+                    <hr>
+                <div style="margin:10px;">
+                    <p class="modal-text">Price : 363 $
+                    </p>
+                    <hr>
+                    <p class="modal-text">Rating : &#9733;&#9733;&#9733;&#9733;</p>
+                </div>
+                <hr>
+                <div class="modalbtn">
+                    <button>Add to Cart</button>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal9">
+        <div class="modal-content">
+            <div class="properties">
+                <div class="photo">
+                    <img src="images/treadmill_for_cards.jpg" alt="">
+                </div>
+                <hr>
+                <p class="modal-text" style="margin: 10px;">Powermax Fitness TDA-230M (2.0 HP), Semi-Auto
+                    Lubrication, Motorized Treadmill with Massager, Dumbbells, Sit-up & Twister Treadmill</p>
+                    <hr>
+                <p class=" modal-text" style="margin: 10px;">Description : Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Maxime placeat quidem molestiae sequi eum odit voluptatem dolor cumque animi in,
+                    molestias fugit accusantium amet sapiente quis quos accusamus atque impedit.</p>
+                    <hr>
+                <div style="margin:10px;">
+                    <p class="modal-text">Price : 826 $
+                    </p>
+                    <hr>
+                    <p class="modal-text">Rating : &#9733;&#9733;&#9733;</p>
+                </div>
+                <hr>
+                <div class="modalbtn">
+                    <button>Add to Cart</button>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal10">
+        <div class="modal-content">
+            <div class="properties">
+                <div class="photo">
+                    <img src="images/plates_for_cards.jpg" alt="">
+                </div>
+                <hr>
+                <p class="modal-text" style="margin: 10px;">Artic Height Exercise Machine Attachments Gym
+                    Pulley 4-inch (Black) - Pack of 4 (Black) Black Weight Plate (0.5 kg)</p>
+                    <hr>
+                <p class=" modal-text" style="margin: 10px;">Description : Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Maxime placeat quidem molestiae sequi eum odit voluptatem dolor cumque animi in,
+                    molestias fugit accusantium amet sapiente quis quos accusamus atque impedit.</p>
+                    <hr>
+                <div style="margin:10px;">
+                    <p class="modal-text">Price : 624 $
+                    </p>
+                    <hr>
+                    <p class="modal-text">Rating : &#9733;&#9733;&#9733;</p>
+                </div>
+                <hr>
+                <div class="modalbtn">
+                    <button>Add to Cart</button>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal11">
+        <div class="modal-content">
+            <div class="properties">
+                <div class="photo">
+                    <img src="images/plates_for_cards.jpg" alt="">
+                </div>
+                <hr>
+                <p class="modal-text" style="margin: 10px;">Artic Height Exercise Machine Attachments Gym
+                    Pulley 4-inch (Black) - Pack of 4 (Black) Black Weight Plate (0.5 kg)</p>
+                    <hr>
+                <p class=" modal-text" style="margin: 10px;">Description : Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Maxime placeat quidem molestiae sequi eum odit voluptatem dolor cumque animi in,
+                    molestias fugit accusantium amet sapiente quis quos accusamus atque impedit.</p>
+                    <hr>
+                <div style="margin:10px;">
+                    <p class="h-secondary">Price : 983 $
+                    </p>
+                    <hr>
+                    <p class="h-secondary">Rating : &#9733;&#9733;&#9733;</p>
+                </div>
+                <hr>
+                <div class="modalbtn">
+                    <button>Add to Cart</button>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal12">
+        <div class="modal-content">
+            <div class="properties">
+                <div class="photo">
+                    <img src="images/plates_for_cards.jpg" alt="">
+                </div>
+                <hr>
+                <p class="modal-text" style="margin: 10px;">Artic Height Exercise Machine Attachments Gym
+                    Pulley 4-inch (Black) - Pack of 4 (Black) Black Weight Plate (0.5 kg)</p>
+                    <hr>
+                <p class=" modal-text" style="margin: 10px;">Description : Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Maxime placeat quidem molestiae sequi eum odit voluptatem dolor cumque animi in,
+                    molestias fugit accusantium amet sapiente quis quos accusamus atque impedit.</p>
+                    <hr>
+                <div style="margin:10px;">
+                    <p class="h-secondary">Price : 987 $
+                    </p>
+                    <hr>
+                    <p class="h-secondary">Rating : &#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                </div>
+                <hr>
+                <div class="modalbtn">
+                    <button>Add To Cart</button>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modals  -->
+    <script>
+        //navigaton sidebar
+        let menu1 = document.getElementById("equip");
+        menu1.style.display = 'none';
+        let menu2 = document.getElementById("acc");
+        menu2.style.display = 'none';
+        let menu3 = document.getElementById("about");
+        menu3.style.display = 'none';
+        let menu4 = document.getElementById("cont");
+        menu4.style.display = 'none';
+        function trigger1() {
+            menu2.style.display = 'none';
+            menu3.style.display = 'none';
+            menu4.style.display = 'none';
+            if (menu1.style.display == 'none') {
+                menu1.style.display = 'block';
+            }
+            else {
+                menu1.style.display = 'none';
+            }
+        }
+        function trigger2() {
+            menu1.style.display = 'none';
+            menu3.style.display = 'none';
+            menu4.style.display = 'none';
+            if (menu2.style.display == 'none') {
+                menu2.style.display = 'block';
+            }
+            else {
+                menu2.style.display = 'none';
+            }
+        }
+        function trigger3() {
+            menu2.style.display = 'none';
+            menu1.style.display = 'none';
+            menu4.style.display = 'none';
+            if (menu3.style.display == 'none') {
+                menu3.style.display = 'block';
+            }
+            else {
+                menu3.style.display = 'none';
+            }
+        }
+        function trigger4() {
+            menu2.style.display = 'none';
+            menu3.style.display = 'none';
+            menu1.style.display = 'none';
+            if (menu4.style.display == 'none') {
+                menu4.style.display = 'block';
+            }
+            else {
+                menu4.style.display = 'none';
+            }
+        }
+        function close() {
+            menu2.style.display = 'none';
+            menu3.style.display = 'none';
+            menu1.style.display = 'none';
+            menu4.style.display = 'none';
+        }
+        var ignoreClickOnMeElement = document.getElementById('sidenav');
+        document.addEventListener('click', function (event) {
+            var isClickInsideElement = ignoreClickOnMeElement.contains(event.target);
+            if (!isClickInsideElement) {
+                close();
+            }
+        });
+        let menu = document.querySelector(".options");
+        function navopen() {
+            if (menu.style.display == 'none') {
+                menu.style.display = 'flex';
+            }
+            else {
+                menu.style.display = 'none';
+            }
+        }
+
+        // modal 
+        let modal1 = document.querySelector(".modal1");
+        function show_modal1() {
+            modal1.style.display = 'flex';
+        }
+        let modal2 = document.querySelector(".modal2");
+        function show_modal2() {
+            modal2.style.display = 'flex';
+        }
+        let modal3 = document.querySelector(".modal3");
+        function show_modal3() {
+            modal3.style.display = 'flex';
+        }
+        let modal4 = document.querySelector(".modal4");
+        function show_modal4() {
+            modal4.style.display = 'flex';
+        }
+        let modal5 = document.querySelector(".modal5");
+        function show_modal5() {
+            modal5.style.display = 'flex';
+        }
+        let modal6 = document.querySelector(".modal6");
+        function show_modal6() {
+            modal6.style.display = 'flex';
+        }
+        let modal7 = document.querySelector(".modal7");
+        function show_modal7() {
+            modal7.style.display = 'flex';
+        }
+        let modal8 = document.querySelector(".modal8");
+        function show_modal8() {
+            modal8.style.display = 'flex';
+        }
+        let modal9 = document.querySelector(".modal9");
+        function show_modal9() {
+            modal9.style.display = 'flex';
+        }
+        let modal10 = document.querySelector(".modal10");
+        function show_modal10() {
+            modal10.style.display = 'flex';
+        }
+        let modal11 = document.querySelector(".modal11");
+        function show_modal11() {
+            modal11.style.display = 'flex';
+        }
+        let modal12 = document.querySelector(".modal12");
+        function show_modal12() {
+            modal12.style.display = 'flex';
+        }
+        window.onclick = function (event) {
+            if (event.target == modal1) {
+                modal1.style.display = 'none';
+            }
+            if (event.target == modal2) {
+
+                modal2.style.display = 'none';
+            }
+            if (event.target == modal3) {
+
+                modal3.style.display = 'none';
+            }
+            if (event.target == modal4) {
+                modal4.style.display = 'none';
+            }
+            if (event.target == modal5) {
+
+                modal5.style.display = 'none';
+            }
+            if (event.target == modal6) {
+
+                modal6.style.display = 'none';
+            }
+            if (event.target == modal7) {
+                modal7.style.display = 'none';
+            }
+            if (event.target == modal8) {
+
+                modal8.style.display = 'none';
+            }
+            if (event.target == modal9) {
+
+                modal9.style.display = 'none';
+            }
+            if (event.target == modal10) {
+                modal10.style.display = 'none';
+            }
+            if (event.target == modal11) {
+
+                modal11.style.display = 'none';
+            }
+            if (event.target == modal12) {
+
+                modal12.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+
+</html>
